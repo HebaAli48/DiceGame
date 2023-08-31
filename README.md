@@ -1,6 +1,6 @@
 # Dice Game
 
-Welcome to the Dice Game! This is a simple web-based two-player game where players take turns rolling a dice and accumulate scores to win.
+Welcome to the Dice Game 🤩🎲🏆! This is a simple web-based two-player game where players take turns rolling a dice and accumulate scores to win.
 
 ## Game Rules
 
