@@ -31,6 +31,8 @@ Welcome to the Dice Game! This is a simple web-based two-player game where playe
 
 ## Demo
 
-For a live demo of the game, you can visit Game Demo (insert link if available).
+For a live demo of the game, you can visit Game Demo https://luckydicegame-7781c5.netlify.app
 
 ## images of Task
+![game2](https://github.com/HebaAli48/DiceGame/assets/131808003/c503f6ec-5fcc-4e80-8b87-b57ab4af0ff6)
+![game1](https://github.com/HebaAli48/DiceGame/assets/131808003/9f6eb4f4-7271-48ad-be19-33ad695fa58e)
