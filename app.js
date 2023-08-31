@@ -65,7 +65,11 @@ rollDiceBtn.addEventListener("click", function () {
     } else {
       var x = index + 1;
       player1Current.textContent = Number(player1Current.textContent) + x;
-      if (Number(player1Current.textContent) >= 50) {
+      if (
+        Number(player1Current.textContent) >= 50 ||
+        Number(player1Score.textContent) + Number(player1Current.textContent) >=
+          50
+      ) {
         player1.textContent = "Winner!";
         rollDiceBtn.style.display = "none";
         holdBtn.style.display = "none";
@@ -82,9 +86,12 @@ rollDiceBtn.addEventListener("click", function () {
       var x = index + 1;
       player2Current.textContent = Number(player2Current.textContent) + x;
 
-      if (Number(player2Current.textContent) >= 50) {
+      if (
+        Number(player2Current.textContent) >= 50 ||
+        Number(player2Score.textContent) + Number(player2Current.textContent) >=
+          50
+      ) {
         player2.textContent = "Winner!";
-
         rollDiceBtn.style.display = "none";
         holdBtn.style.display = "none";
       }
